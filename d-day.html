@@ -12,6 +12,8 @@ body{
 }
   
 #timer {
+  display: flex;
+  flex-wrap: wrap;
   color: #eeeeee;
   text-align: center;
   text-transform: uppercase;
@@ -21,6 +23,7 @@ body{
 }
 
 .days, .hours, .minutes, .seconds {
+  width: calc(100% / 2);
   display: inline-block;
   padding: 20px;
   width: 100px;
